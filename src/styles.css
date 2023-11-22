@@ -1,0 +1,23 @@
+body {
+    
+}
+
+.container {
+    max-width: 700px;
+    
+    margin: 0 auto;
+}
+
+.weather-app-cover {
+    max-width: 680px;
+    margin: 30px auto;
+    
+}
+
+
+.weather-app {
+    border: solid 1px gray;
+    border-radius: 10px;
+    padding: 20px;
+
+}
