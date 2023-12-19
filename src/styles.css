@@ -41,6 +41,9 @@ li {
     font-weight: 100;
 }
 
+hr {
+    color: rgb(3, 43, 3);
+}
 
 a {
     text-decoration: none;
@@ -69,10 +72,18 @@ text-align: center;
     position: relative;
     top:-16px
 }
+.weather-temperature strong {
+    color: rgb(33,33, 33);
+    line-height: 60px;
+}
 
-.weather-temperature .active:hover {
+.weather-temperature .active {
     color: rgb(33,33, 33);
     cursor: default;
+}
+
+.weather-temperature .active:hover {
+    text-decoration: none;
 }
 
 .weather-forecast {
