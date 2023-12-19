@@ -161,17 +161,18 @@ let currentLocationPosition = document.querySelector("#current")
 currentLocationPosition.addEventListener("click", getcurrentPosition)
 
 
-let celciusTemperature = null
+//let celciusTemperature = null
 
-search("london")
+search("Ife")
 
 let form = document.querySelector("#search-form")
 form.addEventListener("submit", handleSubmit)
 
-// https://api.openweathermap.org/data/2.5/weather?q=london&appid=5aac920d434b269cca2f8d17be5dcc12
+
 
 let fahrenheitLink = document.querySelector("#fahrenheit-link")
 fahrenheitLink.addEventListener("click", displayFahrenheitTemperature)
 
 let celciusLink = document.querySelector("#celsius-link")
 celciusLink.addEventListener("click", displayCelsiusTemperature)
+

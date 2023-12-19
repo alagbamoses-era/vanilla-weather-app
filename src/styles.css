@@ -9,7 +9,7 @@ h1 {
 }
 
 .container {
-    max-width: 700px;
+    max-width: 600px;
     
     margin: 0 auto;
 }
@@ -50,6 +50,16 @@ a {
     width: 64px;
 
 }
+
+footer {
+text-align: center;
+}
+
+.city {
+    font-weight: bold;
+}
+
+
 .temp {
     font-size: 35px;
 }
@@ -74,6 +84,7 @@ a {
 
 .weather-forecast-date {
     font-size: 16px;
+    font-weight: bold;
     opacity: 0.9;
 }
 
