@@ -60,3 +60,27 @@ a {
     top:-16px
 }
 
+.weather-temperature .active:hover {
+    color: rgb(33,33, 33);
+    cursor: default;
+}
+
+.weather-forecast {
+    text-align: center;
+    margin-top: 20px;
+    color:black;
+
+}
+
+.weather-forecast-date {
+    font-size: 16px;
+    opacity: 0.9;
+}
+
+.weather-forecast-temperatures {
+    font-size: 13px;
+}
+
+.weather-forecast-temperature-min {
+    opacity: 0.7;
+}
