@@ -159,6 +159,16 @@ function getcurrentPosition (event) {
     navigator.geolocation.getCurrentPosition(currentPosition)
 }
 
+
+function displayDarkTheme (event) {
+    let body = document.querySelector("body")
+    if(body.classList.contains("dark")) {
+        body.classList.remove("dark")
+    } else {
+        body.classList.add("dark")
+    }
+}
+
 let currentLocationPosition = document.querySelector("#current")
 currentLocationPosition.addEventListener("click", getcurrentPosition)
 
@@ -177,4 +187,7 @@ fahrenheitLink.addEventListener("click", displayFahrenheitTemperature)
 
 let celsiusLink = document.querySelector("#celsius-link")
 celsiusLink.addEventListener("click", displayCelsiusTemperature)
+
+let themeButton = document.querySelector("#theme-button")
+themeButton.addEventListener("click", displayDarkTheme)
 

@@ -1,5 +1,5 @@
 body {
-        background-image:#ECEFF1;
+    background: radial-gradient(#e66465, #9198e5);
 }
 
 h1 {
@@ -9,9 +9,11 @@ h1 {
 }
 
 .container {
+    background: white;
     max-width: 600px;
     
-    margin: 0 auto;
+    margin: 5px auto;
+    border-radius: 10px;
 }
 
 .weather-app-cover {
@@ -55,6 +57,7 @@ a {
 }
 
 footer {
+    margin-top: 5px;
 text-align: center;
 }
 
@@ -105,4 +108,26 @@ text-align: center;
 
 .weather-forecast-temperature-min {
     opacity: 0.7;
+}
+
+.themeButton {
+    display: block;
+    color: white;
+    margin: 20px auto;
+    padding: 6px 10px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    background: black;
+    cursor: pointer;
+}
+
+.themeButton:hover {
+    color: black;
+    background: white;
+
+}
+.dark {
+    background: black;
+    color: grey;
 }
