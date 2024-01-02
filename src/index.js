@@ -85,7 +85,7 @@ function displayTemperature(response) {
     let dateElement = document.querySelector("#date")
     let iconElement = document.querySelector("#icon")
 
-    let celsiusTemperature = response.data.main.temp
+     celsiusTemperature = response.data.main.temp
 
     temperatureElement.innerHTML = Math.round(celsiusTemperature)
     
@@ -118,9 +118,9 @@ function displayFahrenheitTemperature(event) {
     fahrenheitLink.classList.add("active");
    
 
-    let fahrenheitTemperature = (celsiusTemperature * 9/5) + 32;
+    let fahrenheitTemperature = (celsiusTemperature * 9/5) + 32
 
-    temperatureElement.innerHTML= Math.round(fahrenheitTemperature)
+    temperatureElement.innerHTML= Math.round(fahrenheitTemperature )
 
 }
 
@@ -128,7 +128,7 @@ function displayCelsiusTemperature(event) {
     event.preventDefault()
     let temperatureElement = document.querySelector("#temperature")
     temperatureElement.innerHTML = Math.round(celsiusTemperature)
-    console.log(temperatureElement.innerHTML)
+    //console.log(temperatureElement.innerHTML)
     celsiusLink.classList.add("active");
     fahrenheitLink.classList.remove("active");
 
